@@ -1,4 +1,4 @@
-package HW1;
+package HW1config ;
 
 public class AccountBank {
     private String nameAccount;
