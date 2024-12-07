@@ -126,6 +126,7 @@ public class ATM implements ActionATM {
                                 break;
                             } else
                                 System.out.println("There is not enough money in the account.");
+                                break;
                         case 3:
                             System.out.print("How many Deposite: ");
                             Double deposite = scanner.nextDouble();
@@ -151,8 +152,10 @@ public class ATM implements ActionATM {
                                     System.out.println();
                                     break;  
                                 }else System.out.println("There is not enough money in the account.");
+                                break;
                             } else
                                 System.out.println("There not have ID you want to transfer.");
+                                break;
                         case 5:
                             exitSession = true;
                             System.out.println("You have been exit.");
